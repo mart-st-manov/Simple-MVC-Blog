@@ -17,6 +17,10 @@ class Controller {
             case 'controlPanel':
                 $view = new controlPanelController();
                 break;
+
+            case 'registerPanel':
+                $register = new registerPanelController();
+                break;
             
             case 'login':
                 $login = new LoginController();
@@ -31,8 +35,8 @@ class Controller {
                 exit();
                 break;
             
-            case 'register':
-                
+            case 'register_user':
+                $register_user = new NewUserController();
                 break;
                   
             case 'submitAnArticle':
