@@ -4,7 +4,7 @@ foreach ($articles as $article) {
     ?>
         <div class="singleArticle">
                
-            <div id="singleArticleTitle">
+            <div class="singleArticleTitle">
                 <?php echo $article['article_title']; ?>
             </div>
             <br />
