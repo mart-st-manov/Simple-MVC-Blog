@@ -22,7 +22,7 @@ class dbHelper {
         
         $articles[mysql_num_rows($q)] = null;
         
-        $i = 0;
+        $i = 1;
         
         while($row = mysql_fetch_array($q)) {
             $articles[$i] = $row;

@@ -1,12 +1,9 @@
 <?php
 
-class RegisterPanelModel
-{
+class RegisterPanelModel {
     
-    public function __construct()
-    {
+    public function __construct() {
         
     }
-    
 }
 ?>
