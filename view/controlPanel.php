@@ -15,6 +15,7 @@
             <input class="checkTwo" type="checkbox" name="exclusive" value="1"> Exclusive
             <br>
             <br>
+            <br>
             
             <input type="submit" name="submit" value="Submit"/>
         </form>
