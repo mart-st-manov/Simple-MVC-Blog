@@ -13,9 +13,6 @@
                       <input type="submit" name="login" value="Login"/>
         </form>
     </div>
-    <div class="menuItems">
-        
-    </div>
     <?php } else { ?>
         <div class="logoutBox">
             <a href="index.php?action=logout"> Exit </a>
