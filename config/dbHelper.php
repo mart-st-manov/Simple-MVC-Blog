@@ -1,10 +1,10 @@
 <?php
 
 class dbHelper {
-    private $host = "http://simpleblogfmiphpmyadminapp.eu01.aws.af.cm/";
+    private $host = "localhost";
     private $user = "root";
-    private $password = "mypass";
-    private $db = "d91555c94a6f249e58de4062d3d7cb151";
+    private $password = "";
+    private $db = "simpleblogdb";
     
     private $connection;
     
