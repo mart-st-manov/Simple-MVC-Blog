@@ -1,8 +1,9 @@
 <div class="menuPanel">
     <div class="menuItems">
         <a href="index.php">Home</a>
-        <?php if($_SESSION && $_SESSION['user'] == 'admin') { ?> | <a href="?action=controlPanel">New Article</a><?php } ?>
-        <?php if($_SESSION == false) { ?> | <a href="?action=registerPanel">Register</a><?php } ?>
+        <?php
+            if($_SESSION && $_SESSION['user'] == 'admin') { ?> | <a href="?action=controlPanel">New Article</a><?php } ?>
+        <?php if($_SESSION == false) { ?> | <a href="?action=register_user">Register</a><?php } ?>
     </div>
     
     <?php if($_SESSION == false) { ?>

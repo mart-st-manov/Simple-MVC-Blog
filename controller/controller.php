@@ -14,14 +14,6 @@ class Controller {
                 include 'view/articles.php';
                 break;
             
-            case 'controlPanel':
-                $view = new controlPanelController();
-                break;
-
-            case 'registerPanel':
-                $register = new registerPanelController();
-                break;
-            
             case 'login':
                 $login = new LoginController();
                 break;
@@ -38,9 +30,13 @@ class Controller {
             case 'register_user':
                 $register_user = new NewUserController();
                 break;
-                  
+
+            case 'controlPanel':
+                $submitAnArticle = new controlPanelController();
+                break;
+
             case 'submitAnArticle':
-                $submitAnArticle = new SubmitAnArticleController();
+                $submitAnArticle = new submitAnArticleController();
                 break;
 
             default:

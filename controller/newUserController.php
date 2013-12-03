@@ -1,13 +1,16 @@
 <?php
+error_reporting(E_ALL ^ E_NOTICE);
 
 class NewUserController {
     private $model = null;
-    
+
     private $new_user_name = null;
     private $new_user_pass = null;
     private $new_user_admin = null;
     
     public function __construct() {
+    
+        include 'view/register.php';
         $this->new_user_name = $_POST['new_user_name'];
         $this->new_user_pass = $_POST['new_user_pass'];
         $this->new_user_admin = 0;

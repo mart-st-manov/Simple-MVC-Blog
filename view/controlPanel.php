@@ -8,14 +8,10 @@
             <br>
 
             <label name="text">Article:</label>
-            <textarea type="text" name="text">
-            </textarea>
+            <textarea type="text" name="text"></textarea>
             <br>
 
-            <input class="checkTwo" type="checkbox" name="exclusive" value="1"> Exclusive
-            <br>
-            <br>
-            <br>
+            <input type="checkbox" name="exclusive" value="1"> Exclusive
             <br>
             <br>
             
